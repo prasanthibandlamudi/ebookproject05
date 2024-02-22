@@ -53,8 +53,9 @@
 	  		
 	  		 <tr>
 		      <td><%= b.getBookId() %></td>
-		      <td><img src="../book/<%= b.getPhotoName() %>"  style="width: 50px; height: 50px;"/></td>
+		    <!--   <td><img src="../book/<%= b.getPhotoName() %>"  style="width: 50px; height: 50px;"/></td> -->
 		      <td><%= b.getBookName() %></td>
+		      <td><%= b.getRefId() %></td>
 		      <td><%= b.getAuthor() %></td>
 		      <td><%= b.getPrice() %></td>
 		      <td><%= b.getBookCategory() %></td>
