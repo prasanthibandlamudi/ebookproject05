@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Ebook: Index</title>
+<title>BOOK OLX: Index</title>
 <%@ include file="all_component/allCss.jsp" %>
 <%@ page import="java.sql.Connection" %>
 <%@ page import="java.util.*" %>

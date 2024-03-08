@@ -7,6 +7,11 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Ebook-App Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <properties>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+</properties>
+
   <dependencies>
     <dependency>
       <groupId>jakarta.servlet</groupId>
@@ -24,6 +29,15 @@
       <artifactId>jstl</artifactId>
       <version>1.2</version>
     </dependency>
+    <dependency>
+    <groupId>com.sun.mail</groupId>
+
+    <artifactId>jakarta.mail</artifactId>
+
+    <version>2.0.1</version>
+
+    </dependency>
+
     <dependency>
       <groupId>taglibs</groupId>
       <artifactId>standard</artifactId>
